@@ -1,2393 +1,1444 @@
-.WEB-UNIDA {
-  width: 100%;
-  min-width: 1920px;
-  min-height: 8964px;
-  display: flex;
-  flex-direction: column;
+.web-unida {
   position: relative;
+  width: 1920px;
+  height: 8964px;
+  padding: 0px;
 }
-
-.WEB-UNIDA .pagina-web {
-  margin-left: 202px;
+.pagina-web {
+  background-color: #161515;
   width: 1600px;
   height: 5112px;
-  position: relative;
-  background-color: #161515;
+  padding: 0px;
   overflow: hidden;
-  overflow-y: scroll;
+  position: relative;
+  left: 202px;
 }
-
-.WEB-UNIDA .pagina-web::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .logo-zybyn-sin-fondo {
-  position: absolute;
-  top: 45px;
-  left: 34px;
+.logo-zybyn-sin-fondo-1 {
   width: 214px;
   height: 232px;
   object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper {
+  left: 34px;
+  top: 45px;
   position: absolute;
+}
+.consolas-disponibles {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 64px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: auto;
   top: 1764px;
   left: 511px;
+  position: absolute;
   width: 689px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
+  height: 90px;
 }
-
-.WEB-UNIDA .men-desplegable {
-  width: 752px;
-  height: 76px;
-  align-items: center;
-  top: 2039px;
-  left: 29px;
+.men-desplegable-engativa {
+  width: 750px;
+  height: 74px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: absolute;
   overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
+  top: 2040px;
+  left: 30px;
 }
-
-.WEB-UNIDA .opcin {
-  display: inline-flex;
+.opci-n-1 {
+  width: 331px;
+  height: 86px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  padding: 12px 0px;
   position: relative;
-  flex: 0 0 auto;
 }
-
-.WEB-UNIDA .div {
-  position: relative;
+.engativa2 {
+  color: #e6fcf8;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 40px;
+  font-family: Inter;
+  flex-shrink: 0;
+  line-height: auto;
   width: 269px;
   height: 60px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6fcf8;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
 }
-
-.WEB-UNIDA .caret-down-solid {
-  position: relative;
-  width: var(--kit-bottom);
-  height: var(--kit-bottom);
-  transform: rotate(-180deg);
-}
-
-.WEB-UNIDA .vector {
-  position: absolute;
-  width: 74.93%;
-  height: 60.00%;
-  top: 40.00%;
-  left: 25.07%;
+.caret-down-solid-full-2 {
   transform: rotate(180deg);
-}
-
-.WEB-UNIDA .iconos {
-  display: grid;
-  grid-template-columns: repeat(5, fit-content(100%));
-  grid-template-rows: repeat(1, fit-content(100%));
-  height: fit-content;
-  padding: 0.12px 0px;
-}
-
-.WEB-UNIDA .imagen {
-  grid-column: 1 / 2;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .img {
-  grid-column: 2 / 3;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-2 {
-  grid-column: 3 / 4;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-3 {
-  grid-column: 4 / 5;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-4 {
-  grid-column: 5 / 6;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .men-desplegable-suba {
-  width: 752px;
-  height: 76px;
-  align-items: center;
-  top: 2039px;
-  left: 825px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.WEB-UNIDA .text-wrapper-2 {
-  position: absolute;
-  top: 2406px;
-  left: 464px;
-  width: 689px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 64px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-3 {
-  position: absolute;
-  top: 106px;
-  left: 248px;
-  width: 719px;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-weight: 600;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 96px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .men-desplegable-2 {
-  width: 1154px;
-  height: 97px;
-  align-items: flex-start;
-  top: 2606px;
-  left: 122px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.WEB-UNIDA .frame {
-  display: inline-flex;
-  align-items: flex-start;
-  padding: 12px 0px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.WEB-UNIDA .text-wrapper-4 {
-  position: relative;
-  width: 469px;
-  height: 73px;
-  margin-top: -1px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .caret-down-solid-2 {
-  position: relative;
+  flex-shrink: 0;
   width: 62px;
   height: 62px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .frame-2 {
-  display: grid;
-  grid-template-columns: repeat(4, fit-content(100%));
-  grid-template-rows: repeat(3, fit-content(100%));
-  height: fit-content;
-  gap: 32px 94px;
-  padding: 0.12px 0px;
-}
-
-.WEB-UNIDA .fortnite-removebg {
+  padding: 0px;
+  overflow: hidden;
   position: relative;
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
+  left: 331px;
+  top: 74px;
   object-fit: cover;
 }
-
-.WEB-UNIDA .call-of-duty-black {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
+.vector {
+  background-color: #15415c;
+  width: 31px;
+  height: 18.6px;
   object-fit: cover;
-}
-
-.WEB-UNIDA .ea-fc-removebg {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 3 / 4;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mortal-kombat {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 4 / 5;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .god-of-war-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .roblox-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .halo-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 3 / 4;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .league-of-leyends {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 4 / 5;
-  width: 218px;
-  height: 218px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .valorant-removebg {
-  position: relative;
-  grid-row: 3 / 4;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .texto-seccion-juegos {
+  left: 15.54px;
+  top: 24.8px;
   position: absolute;
-  top: 3489px;
-  left: 0;
+}
+.iconos {
+  width: 750px;
+  height: 150.24px;
+  padding-top: 0.12px;
+  padding-bottom: 0.12px;
+  position: relative;
+  overflow: hidden;
+  top: 86px;
+}
+.imagen-5 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 0px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-1 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 150px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-4 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 300px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-2 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 450px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-3 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 600px;
+  top: 0.12px;
+  position: absolute;
+}
+.men-desplegable-suba {
+  width: 750px;
+  height: 74px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  top: 2040px;
+  left: 826px;
+}
+.opci-n-12 {
+  width: 331px;
+  height: 86px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.suba2 {
+  color: #e6fcf8;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 40px;
+  font-family: Inter;
+  flex-shrink: 0;
+  line-height: auto;
+  width: 269px;
+  height: 60px;
+}
+.caret-down-solid-full-22 {
+  transform: rotate(180deg);
+  flex-shrink: 0;
+  width: 62px;
+  height: 62px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  left: 331px;
+  top: 74px;
+  object-fit: cover;
+}
+.vector2 {
+  background-color: #15415c;
+  width: 31px;
+  height: 18.6px;
+  object-fit: cover;
+  left: 15.54px;
+  top: 24.8px;
+  position: absolute;
+}
+.iconos2 {
+  width: 750px;
+  height: 150.24px;
+  padding-top: 0.12px;
+  padding-bottom: 0.12px;
+  position: relative;
+  overflow: hidden;
+  top: 86px;
+}
+.imagen-52 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 0px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-12 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 150px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-42 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 300px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-22 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 450px;
+  top: 0.12px;
+  position: absolute;
+}
+.imagen-32 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  left: 600px;
+  top: 0.12px;
+  position: absolute;
+}
+.juegos-disponibles {
+  color: #ead363;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 64px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: auto;
+  top: 2406px;
+  left: 464px;
+  position: absolute;
+  width: 689px;
+  height: 90px;
+}
+.zybyn-gaming {
+  color: #ead363;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 96px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: auto;
+  top: 106px;
+  left: 248px;
+  position: absolute;
+  width: 719px;
+  height: 138px;
+}
+.men-desplegable-juegos {
+  width: 1154px;
+  height: 97px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  overflow: hidden;
+  top: 2606px;
+  left: 122px;
+}
+.frame-5 {
+  width: 531px;
+  height: 97px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+.los-m-s-jugados {
+  color: #ffffff;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  flex-shrink: 0;
+  line-height: auto;
+  width: 469px;
+  height: 73px;
+}
+.caret-down-solid-1 {
+  transform: rotate(-1deg);
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  left: 469px;
+  top: 12px;
+  position: absolute;
+}
+.frame-6 {
+  width: 1154px;
+  height: 718.24px;
+  padding-top: 0.12px;
+  padding-bottom: 0.12px;
+  position: relative;
+  top: 97px;
+}
+.fortnite-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 0px;
+  top: 0.12px;
+  position: absolute;
+}
+.call_of_duty_black_ops_7-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 312px;
+  top: 0.12px;
+  position: absolute;
+}
+.ea_fc_26-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 624px;
+  top: 0.12px;
+  position: absolute;
+}
+.mortal_kombat_1-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 936px;
+  top: 0.12px;
+  position: absolute;
+}
+.god_of_war-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 0px;
+  top: 250.12px;
+  position: absolute;
+}
+.roblox-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 312px;
+  top: 250.12px;
+  position: absolute;
+}
+.halo-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 624px;
+  top: 250.12px;
+  position: absolute;
+}
+.league_of_leyends-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 936px;
+  top: 250.12px;
+  position: absolute;
+}
+.valorant-removebg-preview-1 {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  left: 0px;
+  top: 500.12px;
+  position: absolute;
+}
+.texto-seccion-juegos-disponibles-1 {
   width: 1600px;
   height: 679px;
   object-fit: cover;
+  left: 0px;
+  top: 3489px;
+  position: absolute;
 }
-
-.WEB-UNIDA .component {
-  display: flex;
+.component-1 {
   width: 427px;
   height: 558px;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 4354px;
-  left: 127px;
   border-radius: 64px;
-  background-image: url(./img/component-1.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .frame-3 {
+  padding: 0px;
   display: flex;
-  width: 294px;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  object-fit: cover;
+  left: 127px;
+  top: 4354px;
+}
+.frame-10 {
+  flex-shrink: 0;
+  width: 294px;
+  height: 58px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
-
-.WEB-UNIDA .arrow-right-solid-wrapper {
-  position: relative;
+.frame-8 {
+  flex-shrink: 0;
   width: 70px;
   height: 50px;
+  padding: 0px;
+  position: relative;
+  top: 4px;
 }
-
-.WEB-UNIDA .arrow-right-solid {
-  position: absolute;
-  top: 0;
-  left: 0;
+.arrow-right-solid-1 {
+  background-color: #ffffff;
+  border-radius: 32px;
   width: 50px;
   height: 50px;
-  aspect-ratio: 1;
   object-fit: cover;
 }
-
-.WEB-UNIDA .text-wrapper-5 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  margin-top: -1px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
+.m-s2 {
   color: #000000;
-  font-size: 48px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+  vertical-align: text-middle;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: auto;
+  width: 224px;
+  height: 58px;
 }
-
-.WEB-UNIDA .frame-wrapper {
-  display: flex;
+.component-2 {
   width: 427px;
   height: 558px;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 4354px;
-  left: 996px;
   border-radius: 64px;
-  background-image: url(./img/component-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .frame-4 {
+  padding: 0px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  object-fit: cover;
+  left: 996px;
+  top: 4354px;
+}
+.frame-9 {
+  flex-shrink: 0;
   width: 294px;
+  height: 58px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: flex-end;
   position: relative;
 }
-
-.WEB-UNIDA .group-wrapper {
+.frame-82 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 50px;
+  padding: 0px;
+  position: relative;
+  top: 8px;
+}
+.arrow-right-solid-12 {
+  background-color: #ffffff;
+  border-radius: 32px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.m-s3 {
+  color: #000000;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: auto;
+  width: 224px;
+  height: 58px;
+}
+.component-5 {
+  width: 1600px;
+  height: 450px;
+  padding: 0px;
+  overflow: hidden;
   position: absolute;
   top: 414px;
   left: 1px;
-  width: 1600px;
-  height: 450px;
-  display: flex;
-  overflow: hidden;
 }
-
-.WEB-UNIDA .group {
+.group-1 {
   width: 14944px;
-  display: flex;
-  gap: 624px;
+  height: 450px;
+  position: relative;
 }
-
-.WEB-UNIDA .img-2 {
+.conoce-nuestro-gaming-center-2 {
   width: 1600px;
   height: 450px;
   object-fit: cover;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
-
-.WEB-UNIDA .component-2 {
+.img_0249-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 14.88%;
+  top: 0%;
+  position: absolute;
+}
+.img_5641-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 29.76%;
+  top: 0%;
+  position: absolute;
+}
+.img_0585-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 44.64%;
+  top: 0%;
+  position: absolute;
+}
+.img_4375-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 59.52%;
+  top: 0%;
+  position: absolute;
+}
+.img_3882-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 74.41%;
+  top: 0%;
+  position: absolute;
+}
+.img_3883-3 {
+  width: 1600px;
+  height: 450px;
+  object-fit: cover;
+  left: 89.29%;
+  top: 0%;
+  position: absolute;
+}
+.component-6 {
+  width: 1600px;
+  height: 697px;
+  padding: 0px;
+  overflow: hidden;
   position: absolute;
   top: 945px;
   left: 8px;
-  width: 1600px;
-  height: 697px;
-  display: flex;
-  gap: 624px;
-  overflow: hidden;
-  background-image: url(./img/incio-banner-carrousel-2-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
 }
-
-.WEB-UNIDA .element {
-  width: 1600px;
-  height: 697px;
-  margin-left: 2224px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .img-3 {
+.incio-banner-carrousel-2-2 {
   width: 1600px;
   height: 697px;
   object-fit: cover;
 }
-
-.WEB-UNIDA .PC {
+.img_5540-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 13344px;
+  top: 0px;
+  position: absolute;
+}
+.img_0376-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 11120px;
+  top: 0px;
+  position: absolute;
+}
+.img_0113-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 4448px;
+  top: 0px;
+  position: absolute;
+}
+.img_0116-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 6672px;
+  top: 0px;
+  position: absolute;
+}
+.el-46bc6741-8db2-4a1b-a11d-064fe43eb686-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 2224px;
+  top: 0px;
+  position: absolute;
+}
+.d7479263-361a-438a-a6a6-e493b278d20a-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 15568px;
+  top: 0px;
+  position: absolute;
+}
+.b526f163-7c28-45a9-9097-4d9bd8ab3b2a-2 {
+  width: 1600px;
+  height: 697px;
+  object-fit: cover;
+  left: 8896px;
+  top: 0px;
+  position: absolute;
+}
+.pc3 {
   width: 1920px;
   height: 3852px;
-  position: relative;
-}
-
-.WEB-UNIDA .horarios-y-tarifas {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 1070px;
-  left: 0;
+  top: 5112px;
+  left: 0px;
+}
+.combos-carrusel {
+  background-color: #0f2438;
   width: 1920px;
   height: 1080px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.component-7 {
+  width: 1920px;
+  height: 1080px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 151px;
+  position: relative;
+  overflow: hidden;
+}
+.image-30 {
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.image-31 {
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+  left: 2071px;
+  top: 0px;
+  position: absolute;
+}
+.image-32 {
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+  left: 4142px;
+  top: 0px;
+  position: absolute;
+}
+.horarios-y-tarifas {
   background-color: #161515;
+  width: 1920px;
+  height: 1080px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
-
-.WEB-UNIDA .text-wrapper-6 {
-  position: absolute;
-  top: 82px;
-  left: calc(50.00% - 309px);
-  width: 646px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
+.horarios-y-tarifas2 {
   color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
   font-size: 70px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .rectangle {
+  font-family: Inter;
+  font-weight: 700;
+  align-self: flex-start;
+  left: 651px;
+  top: 82px;
   position: absolute;
+  line-height: auto;
+  width: 646px;
+  height: 96px;
+}
+.rectangle-1 {
+  background-color: #282525;
+  box-shadow: 10px 10px 12px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 51px;
+  width: 732px;
+  height: 752px;
   top: 200px;
   left: 145px;
+  position: absolute;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.el-11-00-am-9-00-pm {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 29px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 574px;
+  top: 487px;
+  position: absolute;
+  line-height: auto;
+  width: 303px;
+  height: 67px;
+}
+.lunes-a-viernes {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 238px;
+  top: 421px;
+  position: absolute;
+  line-height: auto;
+  width: 233px;
+  height: 38px;
+}
+.sede-engativa {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 365px;
+  top: 235px;
+  position: absolute;
+  line-height: auto;
+  width: 325px;
+  height: 58px;
+}
+.rectangle-2 {
+  background-color: #282424;
+  box-shadow: 10px 10px 12px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 51px;
   width: 732px;
   height: 752px;
-  background-color: #282525;
-  border-radius: 51px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .p {
-  position: absolute;
-  top: 487px;
-  left: 574px;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-7 {
-  position: absolute;
-  top: 421px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-8 {
-  top: 235px;
-  left: 365px;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .rectangle-2 {
-  position: absolute;
   top: 200px;
   left: 1026px;
-  width: 732px;
-  height: 752px;
-  background-color: #282424;
-  border-radius: 51px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .image {
   position: absolute;
-  top: 483px;
-  left: 1046px;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.image-4 {
   width: 47px;
   height: 47px;
-  aspect-ratio: 1;
   object-fit: cover;
+  left: 1046px;
+  top: 483px;
+  position: absolute;
 }
-
-.WEB-UNIDA .text-wrapper-9 {
+.el-11-00-am-9-00-pm2 {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 29px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1450px;
   top: 426px;
-  left: 1450px;
   position: absolute;
+  line-height: auto;
   width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
+  height: 67px;
 }
-
-.WEB-UNIDA .text-wrapper-10 {
+.el-11-00-am-9-00-pm3 {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 29px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 574px;
   top: 417px;
-  left: 574px;
   position: absolute;
+  line-height: auto;
   width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
+  height: 67px;
 }
-
-.WEB-UNIDA .image-2 {
-  position: absolute;
-  top: 331px;
-  left: 1043px;
+.image-2 {
+  transform: rotate(-180deg);
   width: 53px;
   height: 53px;
-  aspect-ratio: 1;
   object-fit: cover;
+  left: 1096px;
+  top: 331px;
+  position: absolute;
 }
-
-.WEB-UNIDA .text-wrapper-11 {
-  top: 247px;
+.sede-suba {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
   left: 1269px;
+  top: 247px;
   position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
+  line-height: auto;
+  width: 246px;
+  height: 58px;
 }
-
-.WEB-UNIDA .image-3 {
+.sede-suba2 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1269px;
+  top: 247px;
   position: absolute;
+  line-height: auto;
+  width: 246px;
+  height: 58px;
+}
+.image-1 {
+  transform: rotate(-180deg);
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+  left: 220px;
   top: 343px;
-  left: 167px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-12 {
   position: absolute;
+}
+.horarios3 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1114px;
   top: 331px;
-  left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-13 {
   position: absolute;
+  line-height: auto;
+  width: 193px;
+  height: 58px;
+}
+.horarios4 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 238px;
   top: 338px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-14 {
   position: absolute;
+  line-height: auto;
+  width: 193px;
+  height: 58px;
+}
+.lunes-a-viernes2 {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1114px;
   top: 421px;
-  left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-15 {
   position: absolute;
-  top: 487px;
-  left: 238px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
+  line-height: auto;
+  width: 233px;
+  height: 38px;
+}
+.sabados-y-domingos {
   color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
   font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-16 {
+  font-family: Inter;
+  align-self: flex-start;
+  left: 238px;
+  top: 487px;
   position: absolute;
-  top: 719px;
+  line-height: auto;
+  width: 378px;
+  height: 39px;
+}
+.el-4-500-la-hora {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
   left: 574px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-17 {
-  position: absolute;
   top: 719px;
-  left: 1450px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-18 {
   position: absolute;
+  line-height: auto;
+  width: 378px;
+  height: 39px;
+}
+.el-4-500-la-hora2 {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1450px;
+  top: 719px;
+  position: absolute;
+  line-height: auto;
+  width: 378px;
+  height: 39px;
+}
+.sabados-y-domingos2 {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1114px;
   top: 487px;
-  left: 1114px;
+  position: absolute;
+  line-height: auto;
   width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
+  height: 39px;
 }
-
-.WEB-UNIDA .text-wrapper-19 {
-  top: 493px;
-  left: 1450px;
-  position: absolute;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
+.el-11-00-am-9-00-pm4 {
   color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
   font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .image-4 {
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1450px;
+  top: 493px;
   position: absolute;
+  line-height: auto;
+  width: 303px;
+  height: 67px;
+}
+.image-3 {
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+  left: 1046px;
   top: 413px;
-  left: 1046px;
+  position: absolute;
+}
+.image-5 {
   width: 47px;
   height: 47px;
-  aspect-ratio: 1;
   object-fit: cover;
-}
-
-.WEB-UNIDA .image-5 {
-  position: absolute;
+  left: 170px;
   top: 416px;
-  left: 170px;
+  position: absolute;
+}
+.image-6 {
   width: 47px;
   height: 47px;
-  aspect-ratio: 1;
   object-fit: cover;
-}
-
-.WEB-UNIDA .image-6 {
-  position: absolute;
+  left: 170px;
   top: 483px;
-  left: 170px;
-  width: 47px;
-  height: 47px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-7 {
   position: absolute;
-  top: 576px;
+}
+.image-7 {
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
   left: 167px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-8 {
-  position: absolute;
   top: 576px;
-  left: 1046px;
+  position: absolute;
+}
+.image-8 {
   width: 53px;
   height: 53px;
-  aspect-ratio: 1;
   object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-20 {
+  left: 1046px;
+  top: 576px;
   position: absolute;
-  top: 571px;
+}
+.tarifas3 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
   left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-21 {
-  position: absolute;
   top: 571px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .icono-grande-PC {
-  left: 238px;
   position: absolute;
-  top: 657px;
+  line-height: auto;
+  width: 153px;
+  height: 58px;
+}
+.tarifas4 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 238px;
+  top: 571px;
+  position: absolute;
+  line-height: auto;
+  width: 153px;
+  height: 58px;
+}
+.icono-grande-pc-gamer-1 {
   width: 185px;
   height: 184px;
-  aspect-ratio: 1.01;
   object-fit: cover;
-}
-
-.WEB-UNIDA .icono-grande-PC-2 {
-  left: 1114px;
-  position: absolute;
+  left: 238px;
   top: 657px;
+  position: absolute;
+}
+.icono-grande-pc-gamer-2 {
   width: 185px;
   height: 184px;
-  aspect-ratio: 1.01;
   object-fit: cover;
-}
-
-.WEB-UNIDA .mapas {
+  left: 1114px;
+  top: 657px;
   position: absolute;
-  top: 2150px;
-  left: 0;
+}
+.mapas {
+  background-color: #161515;
   width: 1920px;
   height: 1080px;
-  background-color: #161515;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
-
-.WEB-UNIDA .rectangle-3 {
-  position: absolute;
-  top: 198px;
-  left: 104px;
+.rectangle-3 {
+  background-color: #282525;
+  box-shadow: 10px 10px 12px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
   width: 834px;
   height: 764px;
+  top: 198px;
+  left: 104px;
+  position: absolute;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.rectangle-4 {
   background-color: #282525;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 10px 10px 12px 8px rgba(0, 0, 0, 0.25);
   border-radius: 45px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .rectangle-4 {
+  width: 834px;
+  height: 764px;
+  top: 198px;
+  left: 990px;
   position: absolute;
-  top: 188px;
-  left: 980px;
-  width: 874px;
-  height: 804px;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
 }
-
-.WEB-UNIDA .text-wrapper-22 {
-  position: absolute;
-  top: 290px;
+.avenida-suba-ac-145-107-15 {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
   left: 1180px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-23 {
-  position: absolute;
-  top: 63px;
-  left: calc(50.00% - 235px);
-  width: 519px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: #ead363;
-  font-size: 70px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.WEB-UNIDA .text-wrapper-24 {
-  position: absolute;
-  top: 232px;
-  left: 358px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-25 {
-  position: absolute;
-  top: 232px;
-  left: 1284px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-26 {
-  position: absolute;
   top: 290px;
-  left: 286px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .MAPA {
-  left: 188px;
-  width: 665px;
   position: absolute;
-  top: 367px;
-  height: 521px;
-  display: flex;
+  line-height: auto;
+  width: 453px;
+  height: 38px;
+}
+.como-llegar {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 70px;
+  font-family: Inter;
+  font-weight: 700;
+  align-self: flex-start;
+  left: 725px;
+  top: 63px;
+  position: absolute;
+  line-height: auto;
+  width: 519px;
+  height: 61px;
+}
+.sede-engativa2 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 358px;
+  top: 232px;
+  position: absolute;
+  line-height: auto;
+  width: 325px;
+  height: 58px;
+}
+.sede-suba3 {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 48px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 1284px;
+  top: 232px;
+  position: absolute;
+  line-height: auto;
+  width: 246px;
+  height: 58px;
+}
+.transversal-94-80c-28-3er-piso {
+  color: #e6edf3;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  align-self: flex-start;
+  left: 286px;
+  top: 290px;
+  position: absolute;
+  line-height: auto;
+  width: 524px;
+  height: 38px;
+}
+.mapa-1 {
   background-color: #ffffff;
-  overflow: scroll;
+  align-self: flex-start;
+  left: 188px;
+  top: 367px;
+  position: absolute;
+  width: 665px;
+  height: 521px;
+  padding: 0px;
+  overflow: hidden;
 }
-
-.WEB-UNIDA .MAPA::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .figmap {
+.figmap {
   width: 1000px;
   height: 1000px;
-  margin-left: -158px;
-  display: flex;
-  background-image: url(./img/basemap-image-2.png);
-  background-size: 100% 100%;
+  position: relative;
 }
-
-.WEB-UNIDA .default-marker {
-  margin-top: 510px;
+.basemap-image {
+  width: 1000px;
+  height: 1000px;
+  object-fit: cover;
+}
+.default-marker-component {
   width: 16px;
-  margin-left: 424px;
-  display: flex;
+  height: 20px;
+  padding: 0px;
+  position: absolute;
+  left: 26.6%;
+  top: 51%;
 }
-
-.WEB-UNIDA .frame-5 {
+.frame7 {
+  width: 16px;
+  height: 20px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+}
+.vector3 {
+  background-color: #1daeef;
+  width: 14.91px;
+  height: 19.12px;
+  object-fit: cover;
+  left: 0.11px;
+  top: 0.2px;
+  position: absolute;
+}
+.vector4 {
+  background-color: #3ec3ff;
+  width: 7.46px;
+  height: 19.12px;
+  object-fit: cover;
+  left: 0.11px;
+  top: 0.2px;
+  position: absolute;
+}
+.mapa-2 {
+  background-color: #ffffff;
+  align-self: flex-start;
+  left: 1058px;
+  top: 367px;
+  position: absolute;
+  width: 697px;
+  height: 521px;
+  padding: 0px;
+  overflow: hidden;
+}
+.figmap2 {
   width: 16px;
   height: 20px;
   position: relative;
 }
-
-.WEB-UNIDA .vector-2 {
-  position: absolute;
-  width: 99.34%;
-  height: 99.02%;
-  top: 0;
-  left: 0;
-}
-
-.WEB-UNIDA .MAPA-2 {
-  left: 1058px;
-  width: 697px;
-  gap: 459px;
-  position: absolute;
-  top: 367px;
-  height: 521px;
-  display: flex;
-  background-color: #ffffff;
-  overflow: scroll;
-}
-
-.WEB-UNIDA .MAPA-2::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .default-marker-wrapper {
-  margin-top: -1823px;
-  width: 16px;
-  margin-left: -626px;
-  display: flex;
-}
-
-.WEB-UNIDA .div-wrapper {
-  width: 16px;
-  display: flex;
-}
-
-.WEB-UNIDA .basemap-image {
-  margin-top: -169px;
-  width: 1000px;
-  height: 1000px;
-}
-
-.WEB-UNIDA .text-wrapper-27 {
-  position: absolute;
-  top: 901px;
-  left: 476px;
-  opacity: 0.6;
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-28 {
-  position: absolute;
-  top: 901px;
-  left: 1363px;
-  opacity: 0.6;
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .footer {
-  position: absolute;
-  top: 3230px;
-  left: 0;
-  width: 1920px;
-  height: 616px;
-  background-color: #000000;
-}
-
-.WEB-UNIDA .mesa-de-trabajo {
-  position: absolute;
-  top: 205px;
-  left: 713px;
-  width: 80px;
-  height: 81px;
-  aspect-ratio: 0.99;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-x {
-  position: absolute;
-  top: 205px;
-  left: 817px;
-  width: 80px;
-  height: 81px;
-  aspect-ratio: 0.99;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-2 {
-  position: absolute;
-  top: 205px;
-  left: 921px;
-  width: 80px;
-  height: 81px;
-  aspect-ratio: 0.99;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-3 {
-  position: absolute;
-  top: 205px;
-  left: 1025px;
-  width: 80px;
-  height: 81px;
-  aspect-ratio: 0.99;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-4 {
-  position: absolute;
-  top: 206px;
-  left: 1129px;
-  width: 80px;
-  height: 80px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-29 {
-  position: absolute;
-  top: 324px;
-  left: 576px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-30 {
-  position: absolute;
-  top: 324px;
-  left: 730px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-31 {
-  position: absolute;
-  top: 514px;
-  left: 597px;
-  font-family: "Instrument Serif-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-32 {
-  position: absolute;
-  top: 324px;
-  left: 916px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-33 {
-  position: absolute;
-  top: 324px;
-  left: 1170px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .line {
-  position: absolute;
-  top: 3714px;
-  left: 0;
-  width: 1920px;
-  height: 1px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .combos-carrusel {
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 1920px;
-  height: 1080px;
-  display: flex;
-  background-color: #0f2438;
-  overflow-x: scroll;
-}
-
-.WEB-UNIDA .combos-carrusel::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .component-3 {
-  width: 1920px;
-  display: flex;
-  gap: 151px;
-  overflow: hidden;
-  background-image: url(./img/image-30.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .image-9 {
-  width: 1920px;
-  height: 1080px;
-  margin-left: 2071px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-10 {
-  width: 1920px;
-  height: 1080px;
-  object-fit: cover;
-}
-/* =============================================
-   Original style.css content injected below
-   ============================================= */
-
-.WEB-UNIDA {
-  width: 100%;
-  min-width: 1920px;
-  min-height: 8964px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.WEB-UNIDA .pagina-web {
-  margin-left: 202px;
-  width: 1600px;
-  height: 5112px;
-  position: relative;
-  background-color: #161515;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
-.WEB-UNIDA .pagina-web::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .logo-zybyn-sin-fondo {
-  position: absolute;
-  top: 45px;
-  left: 34px;
-  width: 214px;
-  height: 232px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper {
-  position: absolute;
-  top: 1764px;
-  left: 511px;
-  width: 689px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .men-desplegable {
-  width: 752px;
-  height: 76px;
-  align-items: center;
-  top: 2039px;
-  left: 29px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.WEB-UNIDA .opcin {
-  display: inline-flex;
-  align-items: center;
-  padding: 12px 0px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.WEB-UNIDA .div {
-  position: relative;
-  width: 269px;
-  height: 60px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6fcf8;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .caret-down-solid {
-  position: relative;
-  width: var(--kit-bottom);
-  height: var(--kit-bottom);
-  transform: rotate(-180deg);
-}
-
-.WEB-UNIDA .vector {
-  position: absolute;
-  width: 74.93%;
-  height: 60.00%;
-  top: 40.00%;
-  left: 25.07%;
-  transform: rotate(180deg);
-}
-
-.WEB-UNIDA .iconos {
-  display: grid;
-  grid-template-columns: repeat(5, fit-content(100%));
-  grid-template-rows: repeat(1, fit-content(100%));
-  height: fit-content;
-  padding: 0.12px 0px;
-}
-
-.WEB-UNIDA .imagen {
-  grid-column: 1 / 2;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .img {
-  grid-column: 2 / 3;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-2 {
-  grid-column: 3 / 4;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-3 {
-  grid-column: 4 / 5;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .imagen-4 {
-  grid-column: 5 / 6;
-  position: relative;
-  grid-row: 1 / 2;
-  width: 150px;
-  height: 150px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .men-desplegable-suba {
-  width: 752px;
-  height: 76px;
-  align-items: center;
-  top: 2039px;
-  left: 825px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.WEB-UNIDA .text-wrapper-2 {
-  position: absolute;
-  top: 2406px;
-  left: 464px;
-  width: 689px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 64px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-3 {
-  position: absolute;
-  top: 106px;
-  left: 248px;
-  width: 719px;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-weight: 600;
-  color: var(--colecci-n-variable-LOGO-y-TITULOS);
-  font-size: 96px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .men-desplegable-2 {
-  width: 1154px;
-  height: 97px;
-  align-items: flex-start;
-  top: 2606px;
-  left: 122px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  overflow: hidden;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.WEB-UNIDA .frame {
-  display: inline-flex;
-  align-items: flex-start;
-  padding: 12px 0px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.WEB-UNIDA .text-wrapper-4 {
-  position: relative;
-  width: 469px;
-  height: 73px;
-  margin-top: -1px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .caret-down-solid-2 {
-  position: relative;
-  width: 62px;
-  height: 62px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .frame-2 {
-  display: grid;
-  grid-template-columns: repeat(4, fit-content(100%));
-  grid-template-rows: repeat(3, fit-content(100%));
-  height: fit-content;
-  gap: 32px 94px;
-  padding: 0.12px 0px;
-}
-
-.WEB-UNIDA .fortnite-removebg {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .call-of-duty-black {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .ea-fc-removebg {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 3 / 4;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mortal-kombat {
-  position: relative;
-  grid-row: 1 / 2;
-  grid-column: 4 / 5;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .god-of-war-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .roblox-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .halo-removebg {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 3 / 4;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .league-of-leyends {
-  position: relative;
-  grid-row: 2 / 3;
-  grid-column: 4 / 5;
-  width: 218px;
-  height: 218px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .valorant-removebg {
-  position: relative;
-  grid-row: 3 / 4;
-  grid-column: 1 / 2;
-  width: 218px;
-  height: 218px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .texto-seccion-juegos {
-  position: absolute;
-  top: 3489px;
-  left: 0;
-  width: 1600px;
-  height: 679px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .component {
-  display: flex;
-  width: 427px;
-  height: 558px;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 4354px;
-  left: 127px;
-  border-radius: 64px;
-  background-image: url(./img/component-1.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .frame-3 {
-  display: flex;
-  width: 294px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.WEB-UNIDA .arrow-right-solid-wrapper {
-  position: relative;
-  width: 70px;
-  height: 50px;
-}
-
-.WEB-UNIDA .arrow-right-solid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-5 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  margin-top: -1px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .frame-wrapper {
-  display: flex;
-  width: 427px;
-  height: 558px;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 4354px;
-  left: 996px;
-  border-radius: 64px;
-  background-image: url(./img/component-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .frame-4 {
-  display: flex;
-  width: 294px;
-  align-items: flex-end;
-  position: relative;
-}
-
-.WEB-UNIDA .group-wrapper {
-  position: absolute;
-  top: 414px;
-  left: 1px;
-  width: 1600px;
-  height: 450px;
-  display: flex;
-  overflow: hidden;
-}
-
-.WEB-UNIDA .group {
-  width: 14944px;
-  display: flex;
-  gap: 624px;
-}
-
-.WEB-UNIDA .img-2 {
-  width: 1600px;
-  height: 450px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .component-2 {
-  position: absolute;
-  top: 945px;
-  left: 8px;
-  width: 1600px;
-  height: 697px;
-  display: flex;
-  gap: 624px;
-  overflow: hidden;
-  background-image: url(./img/incio-banner-carrousel-2-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .element {
-  width: 1600px;
-  height: 697px;
-  margin-left: 2224px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .img-3 {
-  width: 1600px;
-  height: 697px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .PC {
-  width: 1920px;
-  height: 3852px;
-  position: relative;
-}
-
-.WEB-UNIDA .horarios-y-tarifas {
-  position: absolute;
-  top: 1070px;
-  left: 0;
-  width: 1920px;
-  height: 1080px;
-  background-color: #161515;
-}
-
-.WEB-UNIDA .text-wrapper-6 {
-  position: absolute;
-  top: 82px;
-  left: calc(50.00% - 309px);
-  width: 646px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: #ead363;
-  font-size: 70px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .rectangle {
-  position: absolute;
-  top: 200px;
-  left: 145px;
-  width: 732px;
-  height: 752px;
-  background-color: #282525;
-  border-radius: 51px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .p {
-  position: absolute;
-  top: 487px;
-  left: 574px;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-7 {
-  position: absolute;
-  top: 421px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-8 {
-  top: 235px;
-  left: 365px;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .rectangle-2 {
-  position: absolute;
-  top: 200px;
-  left: 1026px;
-  width: 732px;
-  height: 752px;
-  background-color: #282424;
-  border-radius: 51px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .image {
-  position: absolute;
-  top: 483px;
-  left: 1046px;
-  width: 47px;
-  height: 47px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-9 {
-  top: 426px;
-  left: 1450px;
-  position: absolute;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-10 {
-  top: 417px;
-  left: 574px;
-  position: absolute;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .image-2 {
-  position: absolute;
-  top: 331px;
-  left: 1043px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-11 {
-  top: 247px;
-  left: 1269px;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .image-3 {
-  position: absolute;
-  top: 343px;
-  left: 167px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-12 {
-  position: absolute;
-  top: 331px;
-  left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-13 {
-  position: absolute;
-  top: 338px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-14 {
-  position: absolute;
-  top: 421px;
-  left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-15 {
-  position: absolute;
-  top: 487px;
-  left: 238px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-16 {
-  position: absolute;
-  top: 719px;
-  left: 574px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-17 {
-  position: absolute;
-  top: 719px;
-  left: 1450px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-18 {
-  position: absolute;
-  top: 487px;
-  left: 1114px;
-  width: 378px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-19 {
-  top: 493px;
-  left: 1450px;
-  position: absolute;
-  width: 303px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 29px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .image-4 {
-  position: absolute;
-  top: 413px;
-  left: 1046px;
-  width: 47px;
-  height: 47px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-5 {
-  position: absolute;
-  top: 416px;
-  left: 170px;
-  width: 47px;
-  height: 47px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-6 {
-  position: absolute;
-  top: 483px;
-  left: 170px;
-  width: 47px;
-  height: 47px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-7 {
-  position: absolute;
-  top: 576px;
-  left: 167px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-8 {
-  position: absolute;
-  top: 576px;
-  left: 1046px;
-  width: 53px;
-  height: 53px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-20 {
-  position: absolute;
-  top: 571px;
-  left: 1114px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-21 {
-  position: absolute;
-  top: 571px;
-  left: 238px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .icono-grande-PC {
-  left: 238px;
-  position: absolute;
-  top: 657px;
-  width: 185px;
-  height: 184px;
-  aspect-ratio: 1.01;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .icono-grande-PC-2 {
-  left: 1114px;
-  position: absolute;
-  top: 657px;
-  width: 185px;
-  height: 184px;
-  aspect-ratio: 1.01;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mapas {
-  position: absolute;
-  top: 2150px;
-  left: 0;
-  width: 1920px;
-  height: 1080px;
-  background-color: #161515;
-}
-
-.WEB-UNIDA .rectangle-3 {
-  position: absolute;
-  top: 198px;
-  left: 104px;
-  width: 834px;
-  height: 764px;
-  background-color: #282525;
-  border-radius: 45px;
-  box-shadow: 10px 10px 12px 8px #00000040;
-}
-
-.WEB-UNIDA .rectangle-4 {
-  position: absolute;
-  top: 188px;
-  left: 980px;
-  width: 874px;
-  height: 804px;
-}
-
-.WEB-UNIDA .text-wrapper-22 {
-  position: absolute;
-  top: 290px;
-  left: 1180px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-  font-style: normal;
-}
-
-.WEB-UNIDA .text-wrapper-23 {
-  position: absolute;
-  top: 63px;
-  left: calc(50.00% - 235px);
-  width: 519px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: #ead363;
-  font-size: 70px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.WEB-UNIDA .text-wrapper-24 {
-  position: absolute;
-  top: 232px;
-  left: 358px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-25 {
-  position: absolute;
-  top: 232px;
-  left: 1284px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-26 {
-  position: absolute;
-  top: 290px;
-  left: 286px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #e6edf3;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-  font-style: normal;
-}
-
-.WEB-UNIDA .MAPA {
-  left: 188px;
-  width: 665px;
-  position: absolute;
-  top: 367px;
-  height: 521px;
-  display: flex;
-  background-color: #ffffff;
-  overflow: scroll;
-}
-
-.WEB-UNIDA .MAPA::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .figmap {
-  width: 1000px;
-  height: 1000px;
-  margin-left: -158px;
-  display: flex;
-  background-image: url(./img/basemap-image-2.png);
-  background-size: 100% 100%;
-}
-
-.WEB-UNIDA .default-marker {
-  margin-top: 510px;
-  width: 16px;
-  margin-left: 424px;
-  display: flex;
-}
-
-.WEB-UNIDA .frame-5 {
+.default-marker-component2 {
   width: 16px;
   height: 20px;
+  padding: 0px;
   position: relative;
 }
-
-.WEB-UNIDA .vector-2 {
-  position: absolute;
-  width: 99.34%;
-  height: 99.02%;
-  top: 0;
-  left: 0;
-}
-
-.WEB-UNIDA .MAPA-2 {
-  left: 1058px;
-  width: 697px;
-  gap: 459px;
-  position: absolute;
-  top: 367px;
-  height: 521px;
-  display: flex;
-  background-color: #ffffff;
-  overflow: scroll;
-}
-
-.WEB-UNIDA .MAPA-2::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .default-marker-wrapper {
-  margin-top: -1823px;
+.frame8 {
   width: 16px;
-  margin-left: -626px;
-  display: flex;
+  height: 20px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
 }
-
-.WEB-UNIDA .div-wrapper {
-  width: 16px;
-  display: flex;
+.vector5 {
+  background-color: #1daeef;
+  width: 14.91px;
+  height: 19.12px;
+  object-fit: cover;
+  left: 0.11px;
+  top: 0.2px;
+  position: absolute;
 }
-
-.WEB-UNIDA .basemap-image {
-  margin-top: -169px;
+.vector6 {
+  background-color: #3ec3ff;
+  width: 7.46px;
+  height: 19.12px;
+  object-fit: cover;
+  left: 0.11px;
+  top: 0.2px;
+  position: absolute;
+}
+.basemap-image2 {
   width: 1000px;
   height: 1000px;
+  object-fit: cover;
 }
-
-.WEB-UNIDA .text-wrapper-27 {
-  position: absolute;
-  top: 901px;
+.scroll {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  font-weight: 800;
+  align-self: flex-start;
   left: 476px;
-  opacity: 0.6;
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-28 {
-  position: absolute;
   top: 901px;
-  left: 1363px;
-  opacity: 0.6;
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: #ffffff;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .footer {
   position: absolute;
-  top: 3230px;
-  left: 0;
+  line-height: auto;
+  width: 88px;
+  height: 38px;
+}
+.scroll2 {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  font-weight: 800;
+  align-self: flex-start;
+  left: 1363px;
+  top: 901px;
+  position: absolute;
+  line-height: auto;
+  width: 88px;
+  height: 38px;
+}
+.footer {
+  background-color: #000000;
   width: 1920px;
   height: 616px;
-  background-color: #000000;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 3230px;
 }
-
-.WEB-UNIDA .footer nav {
-  display: contents;
-}
-
-.WEB-UNIDA .mesa-de-trabajo {
-  position: absolute;
-  top: 205px;
+.mesa-de-trabajo-9-4x-1 {
+  width: 80px;
+  height: 81px;
+  object-fit: cover;
   left: 713px;
+  top: 205px;
+  position: absolute;
+}
+.mesa-de-trabajo-8-4x-1 {
   width: 80px;
   height: 81px;
-  aspect-ratio: 0.99;
   object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-x {
-  position: absolute;
-  top: 205px;
   left: 817px;
+  top: 205px;
+  position: absolute;
+}
+.mesa-de-trabajo-7-4x-1 {
   width: 80px;
   height: 81px;
-  aspect-ratio: 0.99;
   object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-2 {
-  position: absolute;
-  top: 205px;
   left: 921px;
-  width: 80px;
-  height: 81px;
-  aspect-ratio: 0.99;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-3 {
-  position: absolute;
   top: 205px;
-  left: 1025px;
+  position: absolute;
+}
+.mesa-de-trabajo-6-4x-1 {
   width: 80px;
   height: 81px;
-  aspect-ratio: 0.99;
   object-fit: cover;
-}
-
-.WEB-UNIDA .mesa-de-trabajo-4 {
+  left: 1025px;
+  top: 205px;
   position: absolute;
-  top: 206px;
-  left: 1129px;
+}
+.mesa-de-trabajo-1-4x-1 {
   width: 80px;
   height: 80px;
-  aspect-ratio: 1;
   object-fit: cover;
-}
-
-.WEB-UNIDA .text-wrapper-29 {
+  left: 1129px;
+  top: 206px;
   position: absolute;
+}
+.home {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  line-height: auto;
   top: 324px;
   left: 576px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-30 {
   position: absolute;
+  width: 87px;
+  height: 38px;
+}
+.noticias {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  line-height: auto;
   top: 324px;
   left: 730px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-31 {
   position: absolute;
+  width: 119px;
+  height: 38px;
+}
+.copyright-game-center-23427510689-2026-todos-los-derechos-reservados {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Instrument Serif;
+  line-height: auto;
   top: 514px;
   left: 597px;
-  font-family: "Instrument Serif-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-32 {
   position: absolute;
+  width: 807px;
+  height: 80px;
+}
+.contactanos {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  line-height: auto;
   top: 324px;
   left: 916px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .text-wrapper-33 {
   position: absolute;
+  width: 187px;
+  height: 38px;
+  border: none;
+  background: transparent;
+  padding: 0px;
+  cursor: pointer;
+}
+.nuestro-equipo {
+  color: #ead363;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 31px;
+  font-family: Inter;
+  line-height: auto;
   top: 324px;
   left: 1170px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ead363;
-  font-size: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.WEB-UNIDA .line {
   position: absolute;
-  top: 3714px;
-  left: 0;
+  width: 225px;
+  height: 38px;
+}
+.line-1 {
   width: 1920px;
-  height: 1px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .combos-carrusel {
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 1920px;
-  height: 1080px;
-  display: flex;
-  background-color: #0f2438;
-  overflow-x: scroll;
-}
-
-.WEB-UNIDA .combos-carrusel::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.WEB-UNIDA .component-3 {
-  width: 1920px;
-  display: flex;
-  gap: 151px;
-  overflow: hidden;
-  background-image: url(./img/image-30.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.WEB-UNIDA .image-9 {
-  width: 1920px;
-  height: 1080px;
-  margin-left: 2071px;
-  object-fit: cover;
-}
-
-.WEB-UNIDA .image-10 {
-  width: 1920px;
-  height: 1080px;
-  object-fit: cover;
-}
-
-/* Footer nav wrapper — uses display:contents so children remain absolutely positioned */
-.WEB-UNIDA .footer-nav {
-  display: contents;
+  border: 1px solid #d4af37;
 }

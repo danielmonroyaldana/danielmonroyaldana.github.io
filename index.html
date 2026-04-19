@@ -536,7 +536,7 @@
 
       function goTo(n) {
         current = (n + total) % total;
-        slides.style.transform = 'translateX(-' + (current * 65) + '%)';
+        slides.style.transform = 'translateX(-' + (current * 100) + '%)';
         indicators.forEach(function(dot, i) {
           dot.classList.toggle('active', i === current);
         });
